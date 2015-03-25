@@ -50,6 +50,14 @@ public class StartupPart1 {
             System.out.println(c);
         }
         
+        System.out.println();
+        
+        carParts.remove(carParts.size()-2);
+        
+        for(String c : carParts) {
+            System.out.println(c);
+        }
+        
         
         
     }
